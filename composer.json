@@ -1,6 +1,21 @@
 {
     "name": "skyjulik/email-api-client",
     "description": "EmailAPIClient for MessageBird EmailAPI",
-    "type": "client",
-    "require": {}
+    "type": "package",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Iuliia Filatova",
+            "email": "skyjulik@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "email-api-client\\": "src/"
+        }
+    }
 }
