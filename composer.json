@@ -1,0 +1,6 @@
+{
+    "name": "skyjulik/email-api-client",
+    "description": "EmailAPIClient for MessageBird EmailAPI",
+    "type": "client",
+    "require": {}
+}
